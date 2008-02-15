@@ -1,0 +1,9 @@
+<p>Copy <span class="amp">&amp;</span> Paste the following on <strong><%=h @site.url %></strong></p>
+
+<textarea rows="2" cols="50" onclick="this.select()"><script src="http://<%= request.env['HTTP_HOST'] %>/ctr/<%= @site.id %>.js"></script></textarea>
+
+<p>
+  It'll look like this:
+  <script src="http://<%= request.env['HTTP_HOST'] %>/ctr/<%= @site.id %>.js"></script>
+  <div style="clear:left"></div>
+</p>

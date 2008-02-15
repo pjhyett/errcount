@@ -1,0 +1,15 @@
+<p>What site are you installing the counter on?</p>
+<form method="post" action="/sites">
+  http:// <input type="text" name="url" value="www.foobar.com" onclick="rock(this)" style="color:#ccc" /> 
+  <input type="submit" value="Generate Counter" />
+</form>
+
+<%= javascript_tag <<-JS
+  function rock(input) { 
+    if(input.value == "www.foobar.com") { 
+      input.value = "";
+      input.style.color = "#000";
+    }
+  } 
+  JS
+%>

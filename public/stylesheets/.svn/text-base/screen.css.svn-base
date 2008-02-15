@@ -1,0 +1,12 @@
+body     { font-family:verdana; font-size:24px; }
+h1       { font-size:60px; letter-spacing:-4px; margin:0; }
+h2       { font-size:36px; margin:-25px 0 10px 3px; font-weight:bold; }
+a        { text-decoration:none; color:#3923D6; }
+form     { font-size:24px; }
+input    { font-size:24px; }
+table    { font-size:12px; margin-bottom:20px; }
+textarea { font-size:20px; font-family:verdana; }
+.tight   { letter-spacing:-3px; }
+.amp     { font-family: georgia, arial, sans-serif; font-weight: bold; }
+.small   { font-size:12px; }
+#footer  { font-weight:bold; }

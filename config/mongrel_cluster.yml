@@ -1,0 +1,5 @@
+--- 
+cwd: /home/deploy/sites/counter/current
+port: "8035"
+environment: production
+servers: 1

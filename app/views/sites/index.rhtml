@@ -1,0 +1,13 @@
+<p>the straight dope:</p>
+
+<table>
+  <tr><th>Site</th><th>Hits</th></tr>
+  <% @sites.each do |site| -%>
+    <tr style="background:#<%= cycle('eee', 'fff') %>">
+      <td><%= link_to h(site.url), "http://#{site.url}", :rel => :nofollow %></td>
+      <td><%= site.hits %></td>
+    </tr>
+  <% end -%>
+</table>
+
+<p class="small">*sites with zero hits removed</p>

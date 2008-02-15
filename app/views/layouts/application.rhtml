@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>ErrCount</title>
+  <%= stylesheet_link_tag 'screen' %>
+</head>
+<body>
+  <h1><%= link_to 'ErrCount' ,'/' %></h1>
+  <h2>keeping you honest. <span class="tight"><%= link_to 'look here', sites_path %>.</span></h2>
+  
+  <%= yield %>
+  
+  <div id="footer">
+    an <span class="tight"><%= link_to 'Err the Blog', 'http://errtheblog.com' %></span> production.
+  </div>
+</body>
+</html>
